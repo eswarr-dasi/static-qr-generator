@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+<title>About - How the Static QR Code Generator Works</title>
+<meta name='description' content='What QR codes are, the difference between static and dynamic QR codes, and how to use this free QR code generator.'>
+<style>
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;max-width:760px;margin:0 auto;padding:40px 20px;color:#222;line-height:1.6;background:#f5f6f8;}
+h1{font-size:28px;margin-bottom:4px;}
+h2{font-size:20px;margin-top:32px;}
+p{margin:12px 0;}
+a{color:#1a56db;}
+li{margin:6px 0;}
+.nav{margin-bottom:24px;font-size:14px;}
+.nav a{margin-right:16px;}
+footer{margin-top:48px;color:#888;font-size:13px;}
+</style>
+</head>
+<body>
+<div class='nav'><a href='index.html'>Home</a><a href='privacy-policy.html'>Privacy Policy</a></div>
+<h1>About This Tool</h1>
+<p>A QR code is a small square pattern that stores information in a way a camera can scan and decode instantly, without anyone needing to type anything. Phones have been able to read them natively from the camera app for years, which is why they showed up on restaurant menus, parking meters, product packaging, and event tickets. The technology itself is decades old and completely free to use; the code format is an open standard, not something any single company owns.</p>
+<h2>Static QR codes versus dynamic QR codes</h2>
+<p>There are two very different ways a QR code generator can build your code, and the difference matters more than most people realize.</p>
+<p>A static QR code encodes your actual content directly into the pattern of the code itself. If you make a QR code for a website address, the URL itself is baked into the black-and-white squares. Once it is generated, it never needs to talk to any server again. Print it, and it will still work in ten years, even if the company that generated it no longer exists.</p>
+<p>A dynamic QR code instead encodes a short link that points back to the generator's own server, which then redirects the scanner to your real destination behind the scenes. This lets the company offer features like editing the destination after printing, or counting how many times it was scanned. The tradeoff is that the QR code now depends entirely on that company's server staying online and that company continuing to honor the link. Some services only keep these redirect links active on a free plan for a limited time, and expect you to pay to keep them working indefinitely, or to keep seeing scan analytics. A QR code that stops working after printing thousands of flyers is a real, commonly reported frustration.</p>
+<p>This tool only builds static QR codes. There is no redirect server involved because there is no server involved at all. Whatever you enter is what gets encoded, permanently.</p>
+<h2>How to use this generator</h2>
+<ol>
+<li>Choose what kind of content you want to encode: a website URL, plain text, an email address, a phone number, or Wi-Fi network details.</li>
+<li>Fill in the relevant field. For Wi-Fi, this includes the network name, password, and security type, so a phone camera can join the network just by scanning the code.</li>
+<li>Adjust the size, error-correction level, and colors if you like. Higher error correction lets the code still scan even if part of it is damaged or covered, at the cost of a slightly denser pattern.</li>
+<li>Click Generate, then Download PNG to save the image for printing or sharing.</li>
+</ol>
+<h2>Who this is for</h2>
+<p>Anyone who wants a QR code that will keep working: small business owners printing menus or flyers, people sharing a home Wi-Fi password with guests, or anyone who just wants to turn a link into a scannable code without creating an account first.</p>
+<footer>Static QR Code Generator &mdash; free, client-side, no signup.</footer>
+</body>
+</html>
